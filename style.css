@@ -60,8 +60,12 @@ body {
     line-height: 20px;
 }
 
+.carousel-inner {
+    height: 522px;
+}
+
 img {
-    min-height: 522px;
+    min-height: 100%;
 }
 
 .col-lg-6 {
@@ -70,5 +74,13 @@ img {
 
 .carousel-indicators li {
     background-color: #1F7AFF;
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    margin: 0 6px;
+}
 
+.carousel-indicators {
+    position: static;
+    margin: 0 40px;
 }
